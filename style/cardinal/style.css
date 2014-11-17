@@ -1,0 +1,32 @@
+/*
+Tutorial Files for web site theme changing using CSS stylesheets and PHP Cookies
+Created by Adam Khoury @ www.developphp.com July 29, 2010 
+*/
+body,td,th {
+	margin:0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+
+}
+body {
+	background-color: #7495B8;
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+	overflow-y: scroll;
+}
+
+a:link {
+	color: #03F;
+}
+a:visited {
+	color: #03F;
+}
+a:hover {
+	color: #06F;
+}
+a:active {
+	color: #06F;
+}
+

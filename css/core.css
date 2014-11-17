@@ -1,0 +1,28 @@
+.box {
+	width:50px;
+	height:50px;
+	display:inline-block;
+	margin:20px;
+}
+
+#green {
+	background-image:url("../Images/themes/green_thumb.jpg");
+	background-size: cover;
+}
+
+#red {
+	background-image:url("../Images/themes/red_thumb.jpg");
+	background-size: cover;
+}
+}
+
+#blue {
+	background-image:url("../Images/themes/blue_thumb.jpg");
+	background-size: cover;
+}
+}
+
+#yellow {
+	background-image:url("../Images/themes/yellow_thumb.jpg");
+	background-size: cover;
+}

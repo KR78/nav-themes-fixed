@@ -1,0 +1,337 @@
+/*
+	modifing some of the bootstrap classes below
+	1. caption class
+	2. thumbnail class
+
+*/
+.caption p 
+{
+	color:rgba(255,255,255,1);
+}
+.vote
+{
+color: black; 
+	/*color:rgba(255,255,55,1);*/
+}
+body 
+{
+	width:100%;
+	margin:0;
+	margin-left:15%;
+	background-attachment: fixed;
+	overflow-y: scroll;
+    height: 100%;
+   
+}
+header img
+{
+	padding:5px;
+	padding-top:0px;
+}
+
+nav
+{
+	height:40px;
+	padding-top:7px;
+	padding-bottom:43px;
+	color: rgba(255,255,255,1);
+	background-color: rgba(0,0,0,.5);
+	width: 100%;
+	display: block;
+	list-style:none;
+	}
+
+nav ul
+{
+	list-style:none;
+	padding=0;
+	position: relative;
+	margin:0 auto;
+	
+}
+nav ul li
+{
+	
+	float:left;
+	display:inline-block;
+	position:center;
+	padding: relative;	
+}
+nav ul li:hover{
+	background-color: #333;
+	text-decoration: none;
+}
+nav ul li a, visied{
+	color:white;
+	display:block;
+	padding: 15px;
+}
+nav a
+{
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	text-align: center;
+	}
+nav a:link , a:visited
+{
+	display: inline-block;
+	padding: 10px 25px;	
+	color:white;
+}
+.active
+{
+	color: rgba(0,0,0,1);
+	background-color: rgba(0,204,255,1);	
+}
+header.header{
+background-color: rgba(0,0,0,1);
+top-padding:5px;
+bottom-padding:5px;
+}
+header.header2{
+background-color:#000;
+top-padding:0;
+bottom-padding:0;	
+height: 60%;
+padding-bottom: 0%;
+
+}
+
+
+p.black{
+text-decoration-color:black;
+-moz- text-decoration-color: black;
+	-webkit- text-decoration-color: black;
+	-o- text-decoration-color: black;
+	-ms- text-decoration-color: black;
+}
+.instructions{
+	padding-left: 45.3%;
+border-bottom: 0px;
+padding-bottom: 0px;
+padding-right: 0px;
+}
+p.thick {
+    font-weight: bold;
+    vertical-align: right;
+}
+
+p.thicker {
+    font-weight: 900;
+}
+p.uppercase {
+    text-transform: uppercase;
+	-moz- text-transform: uppercase;
+	-webkit- text-transform: uppercase;
+	-o- text-transform: uppercase;
+	-ms- text-transform: uppercase;
+}
+
+
+footer {
+    height: auto;
+    /* position: absolute; */
+    bottom: 0;
+    width:100%;
+	background-color: rgba(0,0,0,.5);
+	color: rgba(0,153,255,1);
+	clear: both;
+	font-family: "Calibri Light";
+	font-size: 12px;
+	
+}
+footer p
+{
+	padding-left:40%;
+	font-size:14px;	
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.boxalign2 {
+  width:1px;
+  margin-left:40%;
+}
+.header{
+background-color: rgba(0,0,0,1);
+}
+
+label {
+  text-align:left;
+  padding-right:30px;
+  display:inline-block;
+  min-width:150px;
+}
+
+/*for the flip3d styling*/
+.flip3d {
+  
+}
+.flip3d > .front {
+ 
+  transform: perspective( 600px ) rotateY( 0deg );
+  -webkit-transform: perspective( 600px ) rotateY(  0deg );
+ 
+  
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: transform .7s linear 0s;
+  transition: -webkit-transform .7s linear 0s;
+  -moz-transition: -moz-transform .7s linear 0s;
+  background-color: rgba(0,0,0,1);`
+  
+  
+}
+.flip3d > .back {
+  
+  transform: perspective( 600px ) rotateY( 180deg );
+  -webkit-transform: perspective( 600px ) rotateY(  180deg );
+  
+  color: rgba(0,0,0,1);
+  
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: transform .7s linear 0s;
+  transition: -webkit-transform .7s linear 0s;
+  -moz-transition: -moz-transform .7s linear 0s;
+  background-color: rgba(204,204,204,1);
+}
+.flip3d:hover > .front{
+  transform:perspective( 600px ) rotateY( -180deg );
+  -webkit-transform:perspective( 600px ) rotateY( -180deg );
+}
+.flip3d:hover > .back { 
+  transform:perspective( 600px ) rotateY( 0deg );
+  -webkit-transform:perspective( 600px ) rotateY( 0deg );
+}
+
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+@-o-keyframes spin{
+	100%{
+		-0-transform:rotate(360deg);
+		transform:rotate(360deg);
+	}
+}
+
+@-moz-keyframes spin{
+	100%{
+		-moz-transform:rotate(360deg);
+		transform:rotate(360deg);
+	}
+}
+
+@-webkit-keyframes spin{
+	100%{
+		-webkit-transform:rotate(360deg);
+		transform:rotate(360deg);
+	}
+}
+
+@keyframes spin{
+	100%{
+		transform:rotate(360deg);
+	}
+}
+.spinner{
+width: 30px;
+height: 30px;
+border: 6px solid #000;
+border-left-color: #333;
+border-bottom-color: #555;
+border-right-color: transparent;
+border-radius: 100%;
+
+animation: spin 600ms infinite linear;
+}
+
+@media only screen and ( min-width:320px) and ( max-width:650px ) 
+{
+body
+{
+	width:100%;
+	
+	overflow-y: scroll;
+}
+
+header img
+{
+	width:330px;
+	height:auto;
+	
+}
+.instructions{
+	padding-left: 50%;
+	
+}
+nav ul li
+{
+	
+	float:left;
+	display:block;
+	position:center;
+	padding: relative;
+
+}
+section
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	
+	background-color: rgba(0,0,0,0.8);
+	float: right;
+	text-align: left;
+	display: block;
+	padding:10px;
+	width: 90%;
+	margin-top: 5%;
+	margin-right:5%;
+	margin-left:100%;
+	margin-bottom: 10%;
+	
+	border-radius: 10% 0% 50% 9%;-->
+	position: relative;
+	z-index: 3;
+	clear: both;
+	box-shadow: 10px 27px 100px 30px rgba(0,0,0,1);
+}
+nav
+{
+	height:48px;
+	padding-top:5px;
+	padding-bottom:0px;
+	color: rgba(255,255,255,1);
+	background-color: rgba(0,0,0,.5);
+	width: 100px;
+	display: block;
+	list-style:none;
+
+	}
+footer
+{
+	width:100%;
+	
+	background-color: rgba(0,0,0,.5);
+	color: rgba(0,153,255,1);
+	clear: both;
+	font-family: "Calibri Light";
+	font-size: 12px;
+	text-align:center;
+}
+	footer p
+{
+	width:100px;
+	padding-left:40%;
+	font-size:14px;	
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+	.box {
+	width:50px;
+	height:50px;
+	display:inline-block;
+	margin:5px;
+}
+}/*end of the media query*/
